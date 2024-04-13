@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contenar{
+    width: 95%;
+    margin-left: 2rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 14px;
+}
+.header h1{
+    font-size: 38px;
+    font-weight: 800;
+}
+#city{
+    width: 20%;
+    border-radius: 10px;
+    border: 0.2px solid gainsboro;
+}
+.header input{
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+}
+.header, .icon{
+    font-size: 24px;
+    padding: 6px 10px;
+}
+.header p{
+    font-size: 19px;
+    color: gray;
+}
+.header p:hover{
+    color: rgb(31, 28, 28);
+    transition: 2s ;
+    cursor: pointer;
+}
+.main-box{
+    width: 100%;
+    height: 23vh;
+    display: flex;
+    padding: 3rem 1rem;
+}
+.imgs-1 {
+    width: 76%;
+    height: 64vh;
+}
+.imgs-1 img{
+    width: 100%;
+    height: 64vh;
+}
+
+.imgs-2 {
+    width: 28%;
+    height: 64vh;
+}
+.imgs-2 img{
+    width: 100%;
+    height: 31.3vh;
+    padding: 1px 3px;
+}
+.imgs-4 {
+    width: 28%;
+    height: 64vh;
+}
+.imgs-4 img{
+    width: 100%;
+    height: 64vh;
+    padding: 0 5px;
+}
+.prices{
+    width: 100%;
+    display: flex;
+    margin-top: 8rem;
+}
+.box-price-1{
+    width: 50%;
+    padding: 120px 14px;
+}
+.box-price-1 h1{
+    font-size: 38px;
+}
+.box-price-1 p{
+    padding: 18px 0 ;
+    margin-top: 19px;
+}
+button{
+    border-radius:10px;
+    padding: 8px 18px;
+}
+a{
+    font-size: 12px;
+    color: gray;
+    text-decoration: none;
+}
+.box-price-2{
+    margin-top: 6rem;
+    padding: 12px 34px;
+}
+.box-price-2 h1{
+    background-color: rgb(92, 172, 92);
+    padding: 8px 24px;
+    font-size: 22px;
+    border-radius: 22px;
+}
+nav ,ul,li{
+    display: flex;
+    justify-content: space-between;
+    gap: 21px;
+    font-size: 34px;
+}
+.menu-bosx{
+    display: flex;
+}
+.menu{
+    margin-top: 4rem;
+    width: 50%;
+}
+.menu ,img{
+    width: 200%;
+    height: 100%;
+}
+.map iframe{
+    width: 100%;
+    height: 80vh;
+    margin-left: 20rem;
+    padding: 2rem 3rem;
+}
+.resto{
+    display: flex;
+    width: 100%;
+    padding: 12px 14px;
+    height: 20rem;
+}
+
+.menu h1, p{
+    padding: 12px 14px;
+}
+.main h2{
+    margin-top: 10rem;
+    padding: 12px 14px;
+}
+.dish{
+    display: flex;
+    margin-top: 5rem;
+}
+.dish-1{
+    width: 200px;
+    height: auto;
+    padding: 2rem 2.4rem;
+}
+.o-food{
+    margin-top: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.footer{
+    margin-top: 6rem;
+}
+.div-footer{
+    margin-top: 3rem;
+}
+.footer-nev{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+.about h1{
+    padding: 12px 14px;
+    font-size: 23px;
+}
+
+@media (max-width: 768px){
+    .contenar{
+        width: 95%;
+    }
+    
+    .header{
+        display: block;
+    }
+   
+    #city{
+        width: 40%;
+    }
+    .header input{
+        width: 60%;
+    }
+    .header, .icon{
+        font-size: 20px;
+        padding: 16px 10px;
+    }
+    
+    .main-box{
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 3rem 1rem;
+    }
+    .imgs-1 {
+        width: 110%;
+        height: auto;
+    } 
+    .imgs-2 {
+        width: 100%;
+        height: auto;
+    }
+    .imgs-2 img{
+        width: 109%;
+    }
+    .imgs-4 {
+        width: 100%;
+        height: auto;
+    }
+    .imgs-4 img{
+        width: 109%;
+    }
+
+    
+    nav ,ul,li{
+        display: block;
+    }
+    .menu-bosx{
+        display: block;
+    }
+    .menu{
+        margin-top: 4rem;
+        width: 50%;
+    }
+    .menu ,img{
+        width: 100%;
+    }
+    .map iframe{
+        width: 100%;
+        height: 50vh;
+        margin-left: -2.6rem;
+    }
+    .resto{
+        display: block;
+    }
+    
+   
+    .dish{
+        display: block;
+        margin-top: 20rem;
+    }
+    .dish-1{
+        width: 100%;
+        height: auto;
+    }
+    .o-food{
+        margin-top: 3rem;
+    }
+    .footer{
+        margin-top: 6rem;
+    }
+    .div-footer{
+        margin-top: 3rem;
+    }
+    .footer-nev{
+        display: flex;
+        margin-top: 3rem;
+        justify-content: space-between;
+    }
+    .about h1{
+        padding: 12px 14px;
+        font-size: 23px;
+    }
+}
